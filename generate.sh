@@ -14,7 +14,7 @@ if [[ $1 = "" ]]; then
   exit 1
 fi
 
-if [[ $2 == "" ]]; then
+if [[ $2 = "" ]]; then
   echo "please specify a password for the private key"
   exit 1
 fi
